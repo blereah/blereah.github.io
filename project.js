@@ -4,9 +4,13 @@ let playButton
 
 let numbers
 
+let upArrows
+
 
 function preload(){
 image = loadImage(numbers.png)
+
+image = loadImage(upArrows.png)
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
